@@ -5,18 +5,17 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer-links'>
-                <img src={assets.logo} alt="PHCMS Logo" className='logo' />
+                <img src={assets.logo} alt="PHCMS Logo" className='footer-logo' />
                 <li className='footer-head'>Contact Us</li>
                 <li>+234 807 749 7411</li>
-                <li>yourmail@gmail.com</li>
-                <li>123 Main Street, Suite 456,Lagos.</li>
+                <li>ehizuahubmarketing@gmail.com</li>
+                <li>6, Hon Fatai Eletu Street, Container Bustop, <br />Awoyaya, Lekki, Lagos</li>
             </div>
             <div className='footer-links'>
                 <li className='footer-head'>Quick Links</li>
                 <li>About Us</li>
                 <li>Our Story</li>
                 <li>Collection</li>
-                <li>Accessories</li>
                 <li>Custom Sites</li>
             </div>
             <div className='footer-links'>
