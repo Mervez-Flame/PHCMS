@@ -1,6 +1,6 @@
 import React from 'react';
 import { assets } from '../assets/assets';
-import { SiFacebook } from "react-icons/si";
+// import { SiFacebook } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>Terms and Conditions</li>
             </div>
             <div className='icons'>
-                <li><SiFacebook size={30}/></li>
+                {/* <li><SiFacebook size={30}/></li> */}
                 <li><AiFillInstagram size={30}/></li>
                 <li><FaTwitter size={30}/></li>
                 <li><BsLinkedin size={30}/></li>
