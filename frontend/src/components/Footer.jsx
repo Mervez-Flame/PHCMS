@@ -1,9 +1,5 @@
 import React from 'react';
 import { assets } from '../assets/assets';
-// import { SiFacebook } from "react-icons/si";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -32,10 +28,10 @@ const Footer = () => {
                 <li>Terms and Conditions</li>
             </div>
             <div className='icons'>
-                {/* <li><SiFacebook size={30}/></li> */}
-                <li><AiFillInstagram size={30}/></li>
-                <li><FaTwitter size={30}/></li>
-                <li><BsLinkedin size={30}/></li>
+                <li><img src={assets.face} alt="" /></li>
+                <li><img src={assets.insta} alt="" /></li>
+                <li><img src={assets.x} alt="" /></li>
+                <li><img src={assets.Linkedin} alt="" /></li>
             </div>
         </footer>
     )
