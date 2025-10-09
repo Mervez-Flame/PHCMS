@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.body {
+    padding: 40px 10%;
+}
+
+.navbar {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.sign-in,
+.Acc {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.sign-in {
+    background-color: #ffffff;
+}
+
+.Acc {
+    background-color: #1da091;
+    width: 11rem;
+    height: 3rem;
+    color: #ffffff;
+}
+
+.Heading {
+    display: flex;
+    padding: 60px 0px;
+    padding-bottom: 10%;
+    gap: 25%;
+    justify-content: space-between;
+}
+
+.Heading div {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    gap: 2rem;
+}
+
+.Heading div h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.Heading div h1 span {
+    font-size: 60px;
+    font-weight: 1300;
+    color: #1da091;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.Heading p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.home {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.home h3 {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.card {
+    background-image: url('./assets/Card.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 7% 5%;
+    text-align: center;
+    align-items: center;
+    gap: 25%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card div h3 {
+    font-size: 30px;
+    color: #1da091;
+    font-weight: 500;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.item {
+    height: 15rem;
+    width: auto;
+    padding: 30px 5%;
+    text-align: center;
+    align-items: center;
+    gap: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BV1 {
+    display: flex;
+    padding: 60px 0px;
+    padding-bottom: 10%;
+    gap: 10%;
+    justify-content: space-between;
+}
+
+.BV1 div {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    gap: 2rem;
+}
+
+.BV1 h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.BV {
+    width: 75%;
+    padding-top: -5%;
+}
+
+.bvdiv {
+    width: 70%;
+}
+
+.bestValue2 {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    background-image: url('../src/assets/BestValue2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bestValue2 div {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 25%;
+    width: 100vw;
+    gap: 2rem;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.bestValue2 div h1 {
+    font-size: 50px;
+}
+
+.bestValue2 p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+}
+
+.client {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.client p {
+    color: #555555;
+    font-size: 20px;
+}
+
+.client-div {
+    display: flex;
+    gap: 30px;
+    padding-top: 2%;
+}
+
+.clientCard {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.clientCard-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    padding: 10% 0;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.contact img {
+    height: auto;
+    width: 35%;
+    padding-top: 2%;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    width: 60%;
+}
+
+.contact-div h1 {
+    font-size: 50px;
+}
+
+.contact-div p {
+    font-size: 20px;
+}
+
+.contact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.contact-item {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    padding-left: 5px;
+    gap: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-text-area-container {
+    grid-column: 1 / -1;
+    display: block;
+}
+
+.contact-text-area-container textarea {
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #101828;
+    padding: 5% 10%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.footer-links {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-head {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.icons {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    gap: 25px;
+    flex-grow: inherit;
+}
