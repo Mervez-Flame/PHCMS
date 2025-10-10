@@ -7,8 +7,8 @@ const NavBar = () => {
         <div className='navbar'>
             <img src={assets.logo} alt='Logo'  className='logo'/>
             <div className='navbar-div'>
-                <Link href="/login"><button className='sign-in'>Sign In</button></Link>
-                <Link href="/register"><button className='Acc'>Open Account</button></Link>
+                <Link to="/login"><button className='sign-in'>Sign In</button></Link>
+                <Link to="/register"><button className='Acc'>Open Account</button></Link>
             </div>
         </div>
     )
