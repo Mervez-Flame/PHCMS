@@ -1,13 +1,14 @@
 import React from 'react';
 import{ assets } from '../assets/assets'
+import { Link } from 'react-router';
 
 const NavBar = () => {
     return (
         <div className='navbar'>
             <img src={assets.logo} alt='Logo'  className='logo'/>
             <div className='navbar-div'>
-                <a href="/login"><button className='sign-in'>Sign In</button></a>
-                <a href="/register"><button className='Acc'>Open Account</button></a>
+                <Link href="/login"><button className='sign-in'>Sign In</button></Link>
+                <Link href="/register"><button className='Acc'>Open Account</button></Link>
             </div>
         </div>
     )

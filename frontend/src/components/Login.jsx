@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { Link } from 'react-router'
 
 const Login = () => {
     return (
@@ -32,7 +33,7 @@ const Login = () => {
                 <button className="google-btn">Continue with Google</button>
 
                 <p className="auth-footer">
-                    Are you new to PHCMS? <a href="/register">Create a new account</a>
+                    Are you new to PHCMS? <Link href="https://phcms-exzr.vercel.app//register">Create a new account</Link>
                 </p>
             </div>
         </div>

@@ -3,6 +3,7 @@
 // import { useNavigate } from 'react-router';
 import GoogleButton from "./GoogleButton";
 import { assets } from '../assets/assets';
+import { Link } from "react-router";
 
 const Register = () => {
 
@@ -51,7 +52,7 @@ const Register = () => {
                 <button className="google-btn">Continue with Google</button>
 
                 <p className="auth-footer">
-                    Already have an account? <a href="/login">Login</a>
+                    Already have an account? <Link href="https://phcms-exzr.vercel.app//login">Login</Link>
                 </p>
             </div>
         </div>
