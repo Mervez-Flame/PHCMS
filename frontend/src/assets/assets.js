@@ -8,8 +8,10 @@ import Linkedin from '../assets/LinkedIn.png';
 import User from '../assets/User.png';
 import contact from '../assets/Contact.png';
 import cardInfo from '../assets/CardInfo.jpg';
-import bestValue1 from '../assets/BestValue1.png'
-import bestValue2 from '../assets/BestValue2.jpg'
+import bestValue1 from '../assets/BestValue1.png';
+import bestValue2 from '../assets/BestValue2.jpg';
+import login from '../assets/Login.png';
+import register from '../assets/Register.png';
 
 export const assets = {
     logo,
@@ -24,4 +26,6 @@ export const assets = {
     face,
     insta,
     User,
+    login,
+    register,
 }

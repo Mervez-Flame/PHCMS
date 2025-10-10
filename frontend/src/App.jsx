@@ -1,27 +1,16 @@
 import React from 'react'
-import LandingPage from './components/LandingPage';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import BestValue from './components/BestValue';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import BestValue2 from './components/BestValue2';
-import ClientSay from './components/ClientSay';
+import Alt from './components/Alt';
+import { Route, Routes } from 'react-router';
+import Login from './components/Login';
+import Register from './components/Register';
 
 const App = () => {
   return (<>
-    <div className='body' >
-      <NavBar />
-      <LandingPage />
-      <Home />
-      <BestValue />
-    </div>
-    <BestValue2 />
-    <div className="body">
-      <ClientSay/>
-      <Contact />
-    </div>
-      <Footer />
+    <Routes>
+      <Route path="/" element={<Alt />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
   </>
   )
 }
