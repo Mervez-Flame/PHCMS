@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <img src={assets.logo} alt='Logo'  className='logo'/>
-            <div>
+            <div className='navbar-div'>
                 <a href=""><button className='sign-in'>Sign In</button></a>
                 <a href=""><button className='Acc'>Open Account</button></a>
             </div>
