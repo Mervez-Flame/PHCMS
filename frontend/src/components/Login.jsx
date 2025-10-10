@@ -33,7 +33,7 @@ const Login = () => {
                 <button className="google-btn">Continue with Google</button>
 
                 <p className="auth-footer">
-                    Are you new to PHCMS? <Link to="https://phcms-exzr.vercel.app//register">Create a new account</Link>
+                    Are you new to PHCMS? <Link to="/register">Create a new account</Link>
                 </p>
             </div>
         </div>

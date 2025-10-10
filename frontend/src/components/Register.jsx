@@ -52,7 +52,7 @@ const Register = () => {
                 <button className="google-btn">Continue with Google</button>
 
                 <p className="auth-footer">
-                    Already have an account? <Link to="https://phcms-exzr.vercel.app//login">Login</Link>
+                    Already have an account? <Link to="/login">Login</Link>
                 </p>
             </div>
         </div>
