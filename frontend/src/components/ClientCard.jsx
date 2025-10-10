@@ -6,9 +6,9 @@ const ClientCard = () => {
         <div className='clientCard'> 
             <div className='clientCard-div'>
                 <img src={assets.User}/>
-                <h3>Kate Love</h3>
+                <h3>Chidubem O., Port Harcourt</h3>
             </div>
-            <p>From Patients records to inventory and staff scheduling , everythingis organised and accessible in one place. Our efficiency has improved tremendously!</p>
+            <p>“The online appointment system was fast and easy to use. I didn’t have to wait long, and the staff were incredibly professional.”</p>
         </div>
     )
 }

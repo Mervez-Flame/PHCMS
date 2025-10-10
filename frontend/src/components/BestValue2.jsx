@@ -1,15 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const BestValue2 = () => {
     return (<>
         <div className='bestValue2'>
             <div>
-                <h1>Your Best Value Proposition</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio similique magnam deserunt, laudantium quisquam ad adipisci voluptas necessitatibus, tempore, iure ea reiciendis maxime aliquid fugit dignissimos distinctio iusto repellendus eum.</p>
-                <a href=""><button className='Acc'>Get Started</button></a>
+                <h1>Caring Beyond Treatment</h1>
+                <p>At PHCMS, our mission is to improve lives by making healthcare accessible, transparent, and patient-centered.<br/>
+                    We believe quality healthcare shouldn’t be a privilege — it should be a right.<br/>
+                    Our vision is to create a healthcare system where every patient feels heard, valued, and cared for with integrity and empathy.</p>
+                <Link to=""><button className='Acc'>Experience healthcare made simple!</button></Link>
             </div>
         </div>
-        </>
+    </>
     )
 }
 

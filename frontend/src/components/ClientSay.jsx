@@ -1,5 +1,7 @@
 import React from 'react'
 import ClientCard from './ClientCard';
+import ClientCard2 from './ClientCard2';
+import ClientCard3 from './ClientCard3';
 
 const ClientSay = () => {
     return (
@@ -8,8 +10,8 @@ const ClientSay = () => {
             <p>We offer the knowledege and abilities</p>
             <div className='client-div'>
                 <ClientCard/>
-                <ClientCard/>
-                <ClientCard/>
+                <ClientCard2/>
+                <ClientCard3/>
             </div>
         </div>
     )

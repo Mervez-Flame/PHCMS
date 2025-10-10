@@ -12,6 +12,11 @@ import bestValue1 from '../assets/BestValue1.png';
 import bestValue2 from '../assets/BestValue2.jpg';
 import login from '../assets/Login.png';
 import register from '../assets/Register.png';
+import fr from '../assets/24.png'
+import doc from '../assets/Doc.png'
+import hospital from '../assets/facilities.png'
+import person from '../assets/Person.png'
+
 
 export const assets = {
     logo,
@@ -28,4 +33,8 @@ export const assets = {
     User,
     login,
     register,
+    fr,
+    doc,
+    person,
+    hospital,
 }
