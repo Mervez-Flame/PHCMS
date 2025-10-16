@@ -52,7 +52,7 @@ const Register = () => {
                 <button className="google-btn">Continue with Google</button>
 
                 <p className="auth-footer">
-                    Already have an account? <Link to="/login">Login</Link>
+                    Already have an account? <Link to="https://mfgs3ofayckkcapp4dgccs.streamlit.app/">Login</Link>
                 </p>
             </div>
         </div>
